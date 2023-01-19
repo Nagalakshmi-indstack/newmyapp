@@ -1,0 +1,8 @@
+{
+  "name": "e-Commerce Profile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "505ff307"
+}
