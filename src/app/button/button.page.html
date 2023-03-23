@@ -1,0 +1,12 @@
+
+<article>
+  <div *ngFor="let test of days">
+    <input 
+    type="radio"
+    name="Demo"
+    value="{{test}}"
+    (change)="radioChangeHandler($event)">
+    {{test}}
+  </div>
+  <p><span>score:  </span><b>{{ selectedDay }}</b></p>
+</article>
